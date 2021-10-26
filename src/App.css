@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgb(66, 65, 65);
+  font-family:monospace;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  border: 1px solid #333;
+  padding: 0.25rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+select {
+  padding: 0.25rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: rgb(0, 132, 255);
+  color: whitesmoke;
+  margin-left: 1rem;
+}
+select option {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.App {
+  border: 2px solid black;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px -5px -5px rgb(0, 0, 0);
+  border-radius: 2px solid black;
 }
